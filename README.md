@@ -8,6 +8,6 @@
 - Es necesario que esté correctamente instalada en el computador con el puerto activo 27017
 
 # Correr app
-Para correr la aplicación sólo es necesario el comando
+Para correr la aplicación es necesario estar en la carpeta "node" y ejecutar el comando
 ### `npm start`
  
