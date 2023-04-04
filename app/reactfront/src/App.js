@@ -18,8 +18,8 @@ function App() {
       </header>
       <BrowserRouter>
         <Routes>
-            <Route path='/' element={ <CompShowBlogs />} />
-            <Route path='/create' element={ <CompCreateBlog />} />
+            <Route path='/create' element={ <CompShowBlogs />} />
+            <Route path='/' element={ <CompCreateBlog />} />
             <Route path='/edit/:id' element={ <CompEditBlog />} />
         </Routes>
       </BrowserRouter>
