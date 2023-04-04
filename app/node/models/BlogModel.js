@@ -4,7 +4,9 @@ const Schema = mongoose.Schema
 const blogSchema = new Schema(
     {
       nombre: {type:String},       
-      contrasena: {type:String}
+      contrasena: {type:String},
+      skills: {type:String},
+      foto: {type:String}
     },
     {collection: 'blogs'}
 )

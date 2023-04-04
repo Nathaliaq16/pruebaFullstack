@@ -24,31 +24,35 @@ const CompShowBlogs = () => {
        getBlogs()
     }
 
+    
+
     return(
         <div className='container'>
             <div className='row'>
                 <div className='col'>
-                    <Link to="/create" className='btn btn-primary mt-2 mb-2'><i className="fas fa-plus"></i></Link>
+                    <Link to="/" className='btn btn-primary mt-2 mb-2'> Volver al login </Link>
                     <table className='table'>
                         <thead className='tableTheadBg'>
                             <tr>
-                                <th>Title</th>
-                                <th>Content</th>
-                                <th>Actions</th>
+                                <th>Foto del perfil</th>
+                                <th>Nombre</th>
+                                <th>Habilidades</th>
+                                <th>Acciones</th>
                             </tr>
                         </thead>
                         <tbody>
                             { blogs.map ( (blog, index) => (
                                 <tr key={ index }>
+                                    <td> <img src={blog.foto} alt="Foto no existe" width="180" height="200"></img> </td>
                                     <td> { blog.title } </td>
-                                    <td> { blog.content } </td>
+                                    <td> { blog.skills } </td>
                                     <td>
-                                        <Link to={`/edit/${blog._id}`} className='btn btn-info'><i className="fas fa-edit"></i></Link>
                                         <button onClick={ ()=>deleteBlog(blog._id) } className='btn btn-danger'><i className="fas fa-trash-alt"></i></button>
                                     </td>
                                 </tr>
                             )) }
                         </tbody>
+                        
                     </table>
                 </div>    
             </div>
