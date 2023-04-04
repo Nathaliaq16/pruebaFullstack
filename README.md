@@ -10,4 +10,9 @@
 # Correr app
 Para correr la aplicación es necesario estar en la carpeta "node" y ejecutar el comando
 ### `npm start`
+
+# Consideraciones
+- El login no verifica usuario por lo tanto se puede escribir cualqueir caracter en las casillas
+- Se muestran las personas creadas en la base de datos de MongoDB
+
  
