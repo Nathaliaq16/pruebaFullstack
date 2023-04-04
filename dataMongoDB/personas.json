@@ -3,7 +3,7 @@
     "$oid": "642b80fc0db431db353830a1"
   },
   "skills": "Python, Java",
-  "title": "Juan Perez",
+  "title": "Juan Perez (Gerente)",
   "foto": "https://c.superprof.com/i/a/12609946/6566938/600/20221205143858/redaccion-curriculum-vitae-mejora-perfil-linkedin-preparacion-entrevistas.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80"
 },{
   "_id": {
@@ -11,12 +11,12 @@
   },
   "foto": "https://www.modeloscv.org/wp-content/uploads/2022/05/Foto-para-Linkedin-Mujer.jpg",
   "skills": "JavaScript, Tableau, Power BI",
-  "title": "Tatiana Millan"
+  "title": "Tatiana Millan (Asistente)"
 },{
   "_id": {
     "$oid": "642b82750db431db353830a3"
   },
   "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDu8Euchs3gGsyKVlK_W8KMOwvgf3wkoCpAR8UmGbxfgyAoN94PejfEWbrC73-z487GR8&usqp=CAU",
   "skills": "HTML, CSS",
-  "title": "David Suarez"
+  "title": "David Suarez (Vicepresidente)"
 }]
