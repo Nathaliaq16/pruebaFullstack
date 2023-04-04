@@ -6,7 +6,7 @@
 # Conexión Base de Datos
 - Para esta se usó MongoDB
 - Es necesario que esté correctamente instalada en el computador con el puerto activo 27017
-- La base de datos debe llamarse mirr
+- La base de datos creada debe llamarse mern
 - Por último, en la carpeta "dataMondoDB" se encuentra un archivo .json que contiene 3 personas para importar a la base de datos de MongoDB.
 
 # Correr app
