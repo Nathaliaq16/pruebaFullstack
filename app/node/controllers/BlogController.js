@@ -23,6 +23,19 @@ export const getBlog = async (req, res) => {
             res.json( {message: error.message} )
         }
 }
+//mostrar un blog por nombre
+export const getBlogByNombre = async (req, res) => {
+    try {
+        const nombre = req.params.nombre
+        await BlogModel.findOne( {nombre:nombre} ).then( (blog) => {
+            res.status(200).json(blog)
+        })
+    } catch (error) {
+        res.json( {message: error.message} )
+    }
+}
+
+
 //Crear un blog
 export const createBlog = async (req, res) => {
     try {
